@@ -99,3 +99,51 @@ section{
     width: 5vh;
     height: 5vh;
 }
+
+.secondSection{
+    display: flex;
+    font-size: 1.6vh;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
+}
+.secondSectionOneCont{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+
+}
+main{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70vh;
+}
+.mainSecondRow{
+    text-align: center;
+    width: 60vh;
+    margin-left: 15vh;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: #BF3359;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    border: none;
+    text-decoration-color: white;
+}
+.butonn{
+    
+    width: fit-content;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
